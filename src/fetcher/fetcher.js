@@ -1,4 +1,3 @@
-const axios = require("axios");
 const { extractLotteryNumbers45, extractLotteryNumbers55, extractLotteryNumbers35 } = require("./utils");
 
 const fetchVietlottData45 = async (drawNumb) => {
